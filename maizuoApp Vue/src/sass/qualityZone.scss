@@ -1,0 +1,27 @@
+@import "common";
+
+
+.shopping-head.qualityZone{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .8rem;
+  border-bottom: 1px solid #ccc;
+}
+.qualityZone-logo{
+  margin-top: .8rem;
+}
+.fanhuitop1{
+  padding-left: .2rem;
+}
+.wechat1{
+  margin-right: .2rem;
+}
+.qualityZone-logo{
+  width: 100%;
+  height:2.03rem;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}

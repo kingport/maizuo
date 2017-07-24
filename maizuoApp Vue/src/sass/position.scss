@@ -1,0 +1,111 @@
+@import "common";
+
+
+.position{
+  background-color: white;
+}
+.iscroll4{
+  height: 100%;
+  overflow: auto;
+}
+
+.shopping-head {
+    width: 100%;
+    height: .82rem;
+    position: fixed;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    z-index: 11;
+  p{
+    text-align: center;
+    line-height: .82rem;
+    color:#808080;
+    font-size: .26rem;
+  }
+  .wechat{
+    position: absolute;
+    top:0.2rem;
+    left:.3rem;
+    color:#1bb2d1;
+
+    i{
+      font-size: .3rem;
+    }
+  }
+}
+
+
+.cc{
+  
+}
+.colorsty{
+  color:black!important;
+}
+  .position-list-box{
+    position: absolute;
+    top:49px;
+    height: 100%;
+    overflow: auto;
+    ul{
+    // position: relative;
+    // height: 100%;
+    width: 100%;
+    // top:-10%;
+    top:49px;
+      dd:last-child {
+        border-bottom: none;
+      }
+      li{
+        width: 6.12rem;
+        dt,dd{
+          height: .7rem;
+          line-height: .7rem;
+
+        }
+        dt{
+          background: #ccc;
+          font-size: .24rem;
+
+          color:#f2f2f2;
+          padding-left: .28rem;
+
+        }
+        dd{
+          border-bottom: 1px solid #ccc;
+          font-size: .27rem;
+          margin-left: .27rem;
+          width: 95%;
+        }
+
+        .one{
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+.position-right{
+  width:.7rem;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  background: rgb(16, 219, 232);
+  z-index: 12;
+  top:0;
+  ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    li{
+      color:white;
+      font-size: .22rem;
+      padding-top: .05rem;
+      a{
+        color:white;
+      }
+    }
+  }
+}

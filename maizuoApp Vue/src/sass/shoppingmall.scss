@@ -1,0 +1,226 @@
+@import "common";
+.shoppingmall-box{
+  // height: 600px;
+  // overflow: auto;
+}
+.iscorrl3{
+  height: 600px;
+  overflow: auto;
+}
+.shopping-head {
+  width:100%;
+  height: .82rem;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  p{
+    text-align: center;
+    line-height: .82rem;
+    color:#808080;
+    font-size: .26rem;
+  }
+  .wechat{
+    position: absolute;
+    top:0.2rem;
+    right:.3rem;
+    color:#1bb2d1;
+
+    i{
+      font-size: .3rem;
+    }
+  }
+}
+
+.shopping-list{
+  width:100%;
+  ul{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: .38rem;
+    padding-bottom: .1rem;
+    li{
+      width:25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: .3rem;
+      img{
+        width:.68rem;
+        height: .65rem;
+      }
+      span{
+        color:black;
+        font-size: .21rem;
+        margin-top: .12rem;
+      }
+    }
+  }
+}
+
+.tuijian{
+  width:100%;
+  border-top: .15rem solid #ccc;
+  border-bottom: .15rem solid #ccc;
+
+  div{
+    display: flex;
+    padding-left: .12rem;
+    padding-top: .18rem;
+    padding-bottom: .18rem;
+    background:#ffffff;
+
+    img{
+      width:3rem;
+      margin-left:.05rem;
+      height: 1.29rem;
+      // background: yellow;
+    }
+  }
+}
+
+.quality{
+    width: 100%;
+    text-align: center;
+    padding-bottom: .2rem;
+    border-bottom: .15rem solid #ccc;
+    p{
+      padding-top: .18rem;
+      padding-bottom: .18rem;
+    }
+    .quality-img{
+
+      padding-left:.15rem;
+      display: flex;
+
+
+      img{
+        width: 3rem;
+        height: 2.61rem;
+        // background: red;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        padding-left: .08rem;
+        .two{
+          margin-top: .12rem;
+        }
+        img{
+          width:3rem;
+          height: 1.24rem;
+          // background: green;
+
+        }
+      }
+    }
+}
+
+
+.shoppingmall-yellow{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .shopping-small{
+    margin-left: .15rem;
+    margin-right: .15rem;
+    height: 1.37rem;
+    margin-top: .2rem;
+    height: 1.37rem;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+
+  }
+  .list-shopping{
+    border-bottom: .15rem solid #ccc;
+    width: 100%;
+    ul{
+      width: 100%;
+      display: flex;
+      // height: 2.1rem;
+      // flex-direction: row;
+      overflow: auto;
+      li{
+        display: flex;
+        flex-direction: column;
+        padding: .2rem;
+        // display: inline-block;
+        float: left;
+        // float: left;
+        img{
+          width:1.18rem;
+          height: 1.22rem;
+        }
+        .yellowname{
+          color:black;
+          font-size: .15rem;
+          display: inline-block;
+          padding-top: .2rem;
+          width: 1.44rem;
+          height: .26rem;
+          overflow: hidden;
+        }
+        .two{
+          padding-top: .2rem;
+          color:#ff6600;
+          font-size: .15rem;
+        }
+
+      }
+    }
+  }
+
+}
+
+.selection{
+  width:100%;
+  background:#f2f2f2;
+  p{
+    text-align: center;
+    padding: .15rem 0;
+  }
+  ul{
+    display:flex;
+    flex-flow: wrap;
+    // padding:0 .15rem;
+    padding-left: .05rem;
+    background: #f2f2f2;
+    box-sizing: border-box;
+    li{
+      display: flex;
+      flex-flow: column;
+      background: white;
+      margin-top: .1rem;
+      width:3rem;
+      margin-left: .1rem;
+      img{
+        width:3rem;
+        height: 3.04rem;
+      }
+      .one{
+        width: 2.8rem;
+        display: inline-block;
+        font-size: .16rem;
+        padding-left: .15rem;
+        height: .51rem;
+      }
+      .two{
+        .two-s{
+          display: inline-block;
+          color:#ff6600;
+          font-size: .25rem;
+          padding-left: .18rem;
+        }
+        .two-p{
+          color:#ccc;
+          display: inline-block;
+          padding-left: .27rem;
+          font-size: .13rem;
+          padding-bottom: .25rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+@import "common";
+
+
+
+.me-top{
+  width:100%;
+  position: relative;
+  .me-position{
+    position: absolute;
+    top:.5rem;
+    right:.17rem;
+    i{
+      color:white;
+      font-size: .36rem;
+    }
+  }
+
+  .me-top-user{
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background:rgb(73, 65, 71);
+    img{
+      width:1.27rem;
+      height: 1.27rem;
+      border:1px solid white;
+      border-radius: 50%;
+      background: #rgb(103, 112, 130);
+    }
+    p{
+      color:white;
+      font-size: .25rem;
+      padding-top: .52rem;
+    }
+  }
+}
+
+.user-tabs{
+  width:100%;
+  ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: .18rem solid #ccc;
+    li{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding:.3rem 0;
+      .iconfont.one{
+        color:#ff6600;
+        font-size: .38rem;
+      }
+      .iconfont.two{
+        color:rgb(15, 203, 236);
+        font-size: .38rem;
+      }
+      .iconfont.three{
+        color:rgb(241, 104, 16);
+        font-size: .38rem;
+      }
+      span{
+        font-size: .17rem;
+        padding-top: .14rem;
+      }
+    }
+  }
+}
+
+
+.user-xinxi{
+  width: 100%;
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      .user-xinxi-li{
+        background-color: white;
+        .user-li-box{
+          padding: {
+            left:.27rem;
+            right: .27rem;
+          }
+        }
+        padding: {
+          top:.25rem;
+          bottom: .20rem;
+        }
+        border-bottom: .15rem solid #ccc;
+        width: 100%;
+      }
+      .iconfont.one{
+        color:rgb(88, 200, 230);
+        font-size: .3rem;
+      }
+      span{
+        font-size:.24rem;
+        padding-left: .35rem;
+      }
+      .iconfont.two{
+        color:#ccc;
+        font-size: .3rem;
+        display: inline-block;
+        float: right;
+        text-align: right;
+        font-weight: 900;
+      }
+
+      .user-xinxi-li2{
+        .user-li-box{
+          position: relative;
+          .xian{
+            display: inline-block;
+            position: absolute;
+            width: 4.8rem;
+            height: 1px;
+            background: #ccc;
+            bottom:-.22rem;;
+            right:.27rem;
+          }
+          padding: {
+            left:.27rem;
+            right: .27rem;
+          }
+        }
+        padding: {
+          top:.25rem;
+          bottom: .20rem;
+        }
+
+        width: 100%;
+      }
+    }
+
+
+
+}
+
+
+.user-xinxi-li.fist{
+  border-bottom: none!important;
+  border-top: .15rem solid #ccc;
+}

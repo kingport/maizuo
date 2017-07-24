@@ -1,0 +1,183 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.me-top {
+  width: 100%;
+  position: relative;
+}
+.me-top .me-position {
+  position: absolute;
+  top: .5rem;
+  right: .17rem;
+}
+.me-top .me-position i {
+  color: white;
+  font-size: .36rem;
+}
+.me-top .me-top-user {
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #494147;
+}
+.me-top .me-top-user img {
+  width: 1.27rem;
+  height: 1.27rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: #rgb 103, 112, 130;
+}
+.me-top .me-top-user p {
+  color: white;
+  font-size: .25rem;
+  padding-top: .52rem;
+}
+
+.user-tabs {
+  width: 100%;
+}
+.user-tabs ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: .18rem solid #ccc;
+}
+.user-tabs ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem 0;
+}
+.user-tabs ul li .iconfont.one {
+  color: #ff6600;
+  font-size: .38rem;
+}
+.user-tabs ul li .iconfont.two {
+  color: #0fcbec;
+  font-size: .38rem;
+}
+.user-tabs ul li .iconfont.three {
+  color: #f16810;
+  font-size: .38rem;
+}
+.user-tabs ul li span {
+  font-size: .17rem;
+  padding-top: .14rem;
+}
+
+.user-xinxi {
+  width: 100%;
+}
+.user-xinxi ul {
+  display: flex;
+  flex-direction: column;
+}
+.user-xinxi ul .user-xinxi-li {
+  background-color: white;
+  padding-top: .25rem;
+  padding-bottom: .20rem;
+  border-bottom: .15rem solid #ccc;
+  width: 100%;
+}
+.user-xinxi ul .user-xinxi-li .user-li-box {
+  padding-left: .27rem;
+  padding-right: .27rem;
+}
+.user-xinxi ul .iconfont.one {
+  color: #58c8e6;
+  font-size: .3rem;
+}
+.user-xinxi ul span {
+  font-size: .24rem;
+  padding-left: .35rem;
+}
+.user-xinxi ul .iconfont.two {
+  color: #ccc;
+  font-size: .3rem;
+  display: inline-block;
+  float: right;
+  text-align: right;
+  font-weight: 900;
+}
+.user-xinxi ul .user-xinxi-li2 {
+  padding-top: .25rem;
+  padding-bottom: .20rem;
+  width: 100%;
+}
+.user-xinxi ul .user-xinxi-li2 .user-li-box {
+  position: relative;
+  padding-left: .27rem;
+  padding-right: .27rem;
+}
+.user-xinxi ul .user-xinxi-li2 .user-li-box .xian {
+  display: inline-block;
+  position: absolute;
+  width: 4.8rem;
+  height: 1px;
+  background: #ccc;
+  bottom: -.22rem;
+  right: .27rem;
+}
+
+.user-xinxi-li.fist {
+  border-bottom: none !important;
+  border-top: .15rem solid #ccc;
+}

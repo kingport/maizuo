@@ -1,0 +1,281 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.cinema-header {
+  width: 100%;
+  height: .81rem;
+  text-align: center;
+  border: 1px solid rgba(138, 145, 137, 0.06);
+}
+.cinema-header p {
+  color: #848484;
+  font-size: .23rem;
+  line-height: .81rem;
+}
+.cinema-header i {
+  position: absolute;
+  top: .3rem;
+  left: .38rem;
+  color: #0fe6ed;
+  font-size: .23rem;
+}
+
+.cinema-title {
+  width: 100%;
+  border-top: .15rem solid #ccc;
+  border-bottom: .15rem solid #ccc;
+}
+.cinema-title ul {
+  padding: 0 .21rem;
+  position: relative;
+}
+.cinema-title ul .iconfont.position {
+  position: absolute;
+  top: 0.55rem;
+  right: 0.2rem;
+  color: #ccc;
+  font-size: .23rem;
+}
+.cinema-title ul .cinema-one {
+  font-size: .26rem;
+  padding-top: .29rem;
+}
+.cinema-title ul .cinema-two {
+  padding-top: .19rem;
+  padding-bottom: .24rem;
+}
+.cinema-title ul .cinema-two span {
+  color: #12ece5;
+  font-size: .16rem;
+  padding: .06rem;
+  border: 1px solid #12ece5;
+  border-radius: 5px;
+  margin-right: .1rem;
+}
+.cinema-title ul .cinema-three {
+  border-top: 1px solid #ccc;
+  display: flex;
+}
+.cinema-title ul .cinema-three span {
+  color: #ccc;
+  font-size: .19rem;
+  height: .68rem;
+  display: inline-block;
+}
+.cinema-title ul .cinema-three span i {
+  font-size: .2rem;
+  color: #12ece5;
+}
+.cinema-title ul .cinema-three .cinema-span {
+  width: 4.3rem;
+  overflow: hidden;
+  border-right: 1px solid #ccc;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: .68rem;
+  padding-right: .05rem;
+}
+.cinema-title ul .cinema-three .cinema-spans {
+  line-height: .68rem;
+  padding-left: .15rem;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.swiper {
+  opacity: 1 !important;
+}
+
+.swiper-slide {
+  width: 1.72rem !important;
+  height: 2.18rem !important;
+  margin: .2rem 0;
+  margin-right: 0.02rem !important;
+  opacity: 0.5;
+  text-decoration-style: wavy;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.film-img {
+  width: 100%;
+  overflow: auto;
+}
+.film-img ul {
+  width: 700px;
+  height: 2.2rem;
+  overflow: hidden;
+  padding: .36rem;
+}
+.film-img ul li {
+  float: left;
+  width: 1.72rem;
+  margin-right: .05rem;
+  height: 2.2rem;
+}
+.film-img ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.cinema-name {
+  position: relative;
+  padding-left: .2rem;
+  margin-right: .2rem;
+}
+.cinema-name .iconfont.position2 {
+  position: absolute;
+  top: .14rem;
+  right: .18rem;
+  color: #ccc;
+  font-size: .16rem;
+  font-weight: 900;
+}
+.cinema-name p {
+  font-size: .25rem;
+  font-weight: 900;
+}
+.cinema-name li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .15rem;
+}
+.cinema-name li span {
+  color: #ccc;
+  font-size: .13rem;
+}
+
+.Fangdate {
+  width: 100%;
+}
+.Fangdate ul {
+  padding-left: .2rem;
+  margin-right: .2rem;
+  padding-top: .4rem;
+}
+.Fangdate ul span {
+  color: black;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 0rem .4rem;
+  background: white;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .22rem;
+  margin-right: .08rem;
+  border-radius: .3rem;
+  margin-top: .06rem;
+}
+.Fangdate ul .active {
+  background: #36bfd1;
+  color: white;
+}
+.Fangdate ul li {
+  color: #ff6600;
+  font-size: .18rem;
+  padding-top: .4rem;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid #ccc;
+}
+.Fangdate ul li i {
+  color: #ff6600;
+}
+
+.film-time {
+  width: 100%;
+}
+.film-time ul {
+  padding-top: .25rem;
+  padding-left: .2rem;
+  margin-right: .2rem;
+}
+.film-time ul li {
+  display: flex;
+  position: relative;
+  padding-bottom: .25rem;
+  border-bottom: 1px dashed #ccc;
+}
+.film-time ul li .span-p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ff6600;
+  font-size: .27rem;
+}
+.film-time ul li .span-p i {
+  color: #ccc;
+  font-weight: 900;
+  font-size: .15rem;
+}
+.film-time ul li div {
+  display: flex;
+  flex-direction: column;
+}
+.film-time ul li div span {
+  font-size: .24rem;
+}
+.film-time ul li div i {
+  font-size: .15rem;
+  color: #ccc;
+}
+.film-time ul li .guoyu3d {
+  padding-left: .34rem;
+}

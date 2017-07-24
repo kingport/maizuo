@@ -1,0 +1,23 @@
+@import "common";
+
+.film-list{
+  width:100%;
+}
+.film-list .hotfilm-title{
+  width:100%;
+  background:#f9f9f9;
+  height: .71rem;
+
+}
+.film-list .hotfilm-title p{
+  color:black;
+  font-size:.18rem;
+  padding: {
+    left: .26rem;
+
+  }
+  line-height: .71rem;
+}
+.data-fimt{
+  color:#ff6600!important;
+}

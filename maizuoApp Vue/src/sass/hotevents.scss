@@ -1,0 +1,37 @@
+@import "common";
+
+
+.hot-events{
+  width: 100%;
+  .hotevents-ul{
+    width: 100%;
+    height: 2.67rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    .hotevents-li{
+      width:50%;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      img{
+        width:.5rem;
+        height: .5rem;
+        border-radius: 50%;
+        background: green;
+        border:none;
+      }
+      .hot-text{
+        padding-left:.27rem;
+        p{
+          color:black;
+          font-size: .25rem;
+        }
+        span{
+          color:#838383;
+          font-size:.19rem;
+        }
+      }
+    }
+  }
+}

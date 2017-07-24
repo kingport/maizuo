@@ -1,0 +1,237 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.iscroll3 {
+  overflow: auto;
+  height: 572px;
+}
+
+.show-img-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.show-img-details img {
+  width: 100% !important;
+  height: 100%;
+}
+
+.img-title {
+  text-align: center;
+  padding: .32rem;
+}
+
+.show-header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.show-header ul {
+  padding-left: .38rem;
+  margin-right: .31rem;
+  height: .8rem;
+}
+.show-header ul li .iconfont.one {
+  color: #1cdaf4;
+  line-height: .8rem;
+  font-size: .25rem;
+  font-weight: 900;
+}
+.show-header ul li .span-one {
+  color: rgba(9, 25, 85, 0.32);
+  font-size: .23rem;
+  line-height: .8rem;
+  padding-left: .1rem;
+}
+.show-header ul li .span-two {
+  color: #ccc;
+  font-size: .26rem;
+  padding-left: .8rem;
+  line-height: .8rem;
+}
+.show-header ul li .iconfont.two {
+  padding-left: 1.3rem;
+  color: #1cdaf4;
+  line-height: .8rem;
+}
+
+.process {
+  width: 100%;
+}
+.process .process-box {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.process .process-box li {
+  text-align: center;
+  padding-top: .16rem;
+}
+.process .process-box li span {
+  margin-left: .9rem;
+  font-size: .27rem;
+}
+.process .process-box li .progress-span {
+  margin-left: 0;
+}
+.process .process-box svg {
+  padding-left: 1.5rem;
+}
+
+.show-position {
+  width: 100%;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  border-bottom: .15rem solid #ccc;
+}
+.show-position .show-position-box {
+  padding-left: .16rem;
+  display: flex;
+}
+.show-position .show-position-box img {
+  height: 2.39rem;
+  width: 1.66rem;
+}
+.show-position .show-position-box .right {
+  display: flex;
+  flex-direction: column;
+  padding-left: .16rem;
+}
+.show-position .show-position-box .right p {
+  font-size: .25rem;
+  text-indent: .2rem;
+  width: 3.41rem;
+  padding-top: .1rem;
+}
+.show-position .show-position-box .right span {
+  color: #ccc;
+  font-size: .15rem;
+}
+.show-position .show-position-box .right .position-s {
+  padding-top: .2rem;
+}
+.show-position .show-position-box .right .position-s2 {
+  padding-top: .15rem;
+}
+.show-position .show-position-box .right b {
+  color: #ff6600;
+  padding-top: .22rem;
+}
+
+.coupon {
+  width: 100%;
+  display: flex;
+  border-bottom: .15rem solid #ccc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coupon p {
+  text-align: center;
+  padding: .2rem;
+}
+.coupon .yjlq {
+  width: 1.83rem;
+  height: .5rem;
+  background: #ff6600;
+  color: white;
+  font-size: .23rem;
+  text-align: center;
+  line-height: .5rem;
+  border-radius: .1rem;
+  text-align: center;
+  margin-bottom: .2rem;
+}
+.coupon ul {
+  padding-left: .15rem;
+  margin-right: .15rem;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.coupon ul li {
+  margin-bottom: .2rem;
+  width: 1.55rem;
+  padding: .05rem;
+  height: .6rem;
+  border: 1px solid #ffd7c5;
+  border-radius: .1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: .334rem;
+}
+.coupon ul li b {
+  font-size: .17rem;
+  color: #ff6600;
+}
+.coupon ul li span {
+  color: #ccc;
+  font-size: .15rem;
+}
+
+.tabs-show {
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  background: #ccc;
+}

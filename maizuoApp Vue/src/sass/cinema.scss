@@ -1,0 +1,118 @@
+@import "common";
+
+
+.iscorrl{
+  overflow: auto;
+  height: 500px;
+}
+.cinema-box{
+  width: 100%;
+  // border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.cinema-box::after{
+  content:"";
+  top:-1px;
+  bottom:0;
+  left:0;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transform: scaleY(0.5);
+}
+.cinema-seach{
+  position: absolute;
+  top:.31rem;
+  right: .31rem;
+  i{
+    color:#10adce;
+    font-size: .26rem;
+  }
+}
+
+.cinema-qy{
+  position: relative;
+  border-top:1px solid #ccc;
+  width:100%;
+  P{
+    color:black;
+    font-size: .2rem;
+    margin-left:.20rem;
+    padding: .24rem 0px;
+  }
+  .cinma-qy-pos{
+    position: absolute;
+    top:0;
+    right:0;
+    font-size: .21rem;
+    color:#00a5c8;
+    top:.24rem;
+    right:.2rem;
+    i{
+      color:#00a5c8;
+      font-size: .24rem;
+    }
+  }
+}
+
+.cinema-location{
+  width:100%;
+  ul{
+
+    padding-top: .41rem;
+    padding-left: .21rem;
+    margin-right: .24rem;
+    padding-bottom: .28rem;
+    // border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-flow: column;
+    li{
+      display: flex;
+      flex-flow: row;
+
+    }
+    .one-losction{
+      justify-content: space-between;
+      span{
+        color:black;
+        font-size: .27rem;
+      }
+      div{
+        color: #ff6600;
+        font-size: .34rem;
+        span{
+          color: #ff6600;
+          font-size:5px;
+        }
+      }
+    }
+    .two-location{
+      justify-content: space-between;
+      span{
+        color:#c0c0c0;
+        font-size: .14rem;
+      }
+      .address{
+        width:4.37rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+    .three-location{
+      span{
+        display: inline-block;
+        width:1.29rem;
+        height: .27rem;
+        background: #ff7674;
+        color:white;
+        font-size: .16rem;
+        text-align: center;
+        line-height: .27rem;
+        border-radius: 3px;
+        margin-top: .17rem;
+      }
+    }
+  }
+}

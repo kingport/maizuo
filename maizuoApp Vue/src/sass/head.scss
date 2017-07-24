@@ -1,0 +1,60 @@
+@import "common";
+
+.iscroll{
+  height:521px;
+  overflow: auto;
+}
+.header{
+  width:100%;
+  height:100%;
+  .head-top{
+    padding-left: .34rem;
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    display: flex;
+    justify-content: center;
+
+    .head-left{
+      position: absolute;
+      top:.3rem;
+      left:.34rem;
+      .iconfont.posi{
+        color:#09adcd;
+        font-size: .3rem;
+      }
+      span{
+        font-size: .2rem;
+        color: #555555;
+      }
+    }
+    .head-m{
+      color:#555555;
+      font-size: .26rem;
+    }
+  }
+}
+.film-tabs{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .color{
+      border-bottom:2px solid #ff6600;
+
+  }
+  .film-tabs-a{
+
+    a{
+      color: #555555;
+      font-size: .2rem;
+      display: inline-block;
+      padding-bottom: .15rem;
+    }
+  }
+}
+
+
+
+.banner{
+
+}

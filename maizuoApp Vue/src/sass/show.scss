@@ -1,0 +1,35 @@
+@import "common";
+
+.iscorrl2{
+  height: 568px;
+  overflow: auto;
+}
+.show-head{
+  width: 100%;
+  height: .81rem;
+  // margin-top: .27rem;
+  border-bottom: 1px solid #ccc;
+
+}
+.show-head p{
+  text-align: center;
+  line-height: .81rem;
+}
+.show-img{
+  width: 100%;
+}
+.show-img .imgbox{
+  margin-top:.2rem;
+  padding:0px .17rem;
+  padding-bottom: .5rem;
+  border-bottom: .1rem solid #ccc;
+}
+.show-img .imgbox img{
+  width:6.06rem;
+  height: 3.02rem;
+  background: yellow;
+}
+.show-img .imgbox p span{
+  color:black;
+  font-size: .2rem;
+}

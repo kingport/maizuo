@@ -1,0 +1,244 @@
+@import "common";
+
+.cinema-header{
+  width: 100%;
+  height: .81rem;
+  text-align: center;
+  border:1px solid rgba(138, 145, 137, 0.06);
+  p{
+    color:#848484;
+    font-size: .23rem;
+    line-height: .81rem;
+
+  }
+  i{
+    position: absolute;
+    top:.3rem;
+    left:.38rem;
+    color:rgb(15, 230, 237);
+    font-size: .23rem;
+  }
+}
+
+.cinema-title{
+  width: 100%;
+  border-top: .15rem solid #ccc;
+  border-bottom: .15rem solid #ccc;
+  ul{
+    padding: 0 .21rem;
+    position: relative;
+    .iconfont.position{
+      position: absolute;
+      top:0.55rem;
+      right:0.2rem;
+      color:#ccc;
+      font-size: .23rem;
+    }
+    .cinema-one{
+      font-size: .26rem;
+      padding-top: .29rem;
+    }
+    .cinema-two{
+      padding-top: .19rem;
+      padding-bottom: .24rem;
+
+      span{
+        color:rgb(18, 236, 229);
+        font-size: .16rem;
+        padding:.06rem;
+        border: 1px solid rgb(18, 236, 229);
+        border-radius: 5px;
+        margin-right: .1rem;
+      }
+    }
+    .cinema-three{
+      border-top: 1px solid #ccc;
+      display:flex;
+      span{
+        color:#ccc;
+        font-size: .19rem;
+        height: .68rem;
+        display: inline-block;
+        i{
+          font-size: .2rem;
+          color:rgb(18, 236, 229);
+        }
+      }
+      .cinema-span{
+        width: 4.3rem;
+        overflow: hidden;
+        border-right: 1px solid #ccc;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: .68rem;
+        padding-right: .05rem;
+      }
+      .cinema-spans{
+        line-height: .68rem;
+        padding-left: .15rem;
+      }
+    }
+  }
+}
+.swiper-slide-active{
+  opacity: 1!important;
+}
+.swiper{
+  opacity: 1!important;
+}
+.swiper-slide {
+  width: 1.72rem!important;
+  height: 2.18rem!important;
+  margin: .2rem 0;
+  margin-right: .02rem!important;
+  opacity: 0.5;
+  text-decoration-style: wavy;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.film-img{
+  width: 100%;
+  overflow: auto;
+  ul{
+    width: 700px;
+    height: 2.2rem;
+    // display: flex;
+    overflow: hidden;
+    padding: .36rem;
+
+    li{
+      float: left;
+
+      width:1.72rem;
+      margin-right: .05rem;
+      height: 2.2rem;
+      img{
+        width:100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.cinema-name{
+  // width: 100%;
+  position: relative;
+  padding-left: .2rem;
+  margin-right: .2rem;
+  .iconfont.position2{
+    position: absolute;
+    top:.14rem;
+    right: .18rem;
+    color:#ccc;
+    font-size: .16rem;
+    font-weight: 900;
+  }
+  p{
+    font-size: .25rem;
+    font-weight: 900;
+
+  }
+  li{
+    // padding-top: .15rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: .15rem;
+    span{
+      color:#ccc;
+      font-size: .13rem;
+    }
+  }
+  .name-xian{
+
+  }
+}
+
+.Fangdate{
+  width: 100%;
+  ul{
+    padding-left: .2rem;
+    margin-right: .2rem;
+    padding-top: .4rem;
+    span{
+      color: black;
+      display: inline-block;
+      border:1px solid #ccc;
+      // width: 1.6rem;
+      // height: .5rem;
+      padding: 0rem .4rem;
+      background: white;
+      text-align: center;
+      line-height: .5rem;
+      font-size: .22rem;
+      margin-right: .08rem;
+      border-radius: .3rem;
+      margin-top: .06rem;
+
+    }
+    .active{
+      background: #36bfd1;
+      color:white;
+    }
+    li{
+      color:#ff6600;
+      font-size: .18rem;
+      padding-top: .4rem;
+      padding-bottom: .25rem;
+      border-bottom: 1px solid #ccc;
+      i{
+        color:#ff6600;
+      }
+    }
+  }
+}
+
+.film-time{
+  width: 100%;
+  ul{
+    padding: {
+      top:.25rem;
+      left:.2rem;
+    }
+    margin-right: .2rem;
+
+    li{
+      .span-p{
+        position: absolute;
+        top:0;
+        right: 0;
+        color:#ff6600;
+        font-size: .27rem;
+        i{
+          color:#ccc;
+          font-weight: 900;
+          font-size: .15rem;
+        }
+      }
+      display: flex;
+      position: relative;
+      padding-bottom: .25rem;
+      border-bottom: 1px dashed #ccc;
+      span{
+
+      }
+      div{
+        span{
+          font-size: .24rem;
+
+        }
+        i{
+          font-size: .15rem;
+          color:#ccc;
+        }
+        display: flex;
+        flex-direction: column;
+
+      }
+      .guoyu3d{
+        padding-left: .34rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,259 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.iscorrl3 {
+  height: 600px;
+  overflow: auto;
+}
+
+.shopping-head {
+  width: 100%;
+  height: .82rem;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.shopping-head p {
+  text-align: center;
+  line-height: .82rem;
+  color: #808080;
+  font-size: .26rem;
+}
+.shopping-head .wechat {
+  position: absolute;
+  top: 0.2rem;
+  right: .3rem;
+  color: #1bb2d1;
+}
+.shopping-head .wechat i {
+  font-size: .3rem;
+}
+
+.shopping-list {
+  width: 100%;
+}
+.shopping-list ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: .38rem;
+  padding-bottom: .1rem;
+}
+.shopping-list ul li {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: .3rem;
+}
+.shopping-list ul li img {
+  width: .68rem;
+  height: .65rem;
+}
+.shopping-list ul li span {
+  color: black;
+  font-size: .21rem;
+  margin-top: .12rem;
+}
+
+.tuijian {
+  width: 100%;
+  border-top: .15rem solid #ccc;
+  border-bottom: .15rem solid #ccc;
+}
+.tuijian div {
+  display: flex;
+  padding-left: .12rem;
+  padding-top: .18rem;
+  padding-bottom: .18rem;
+  background: #ffffff;
+}
+.tuijian div img {
+  width: 3rem;
+  margin-left: .05rem;
+  height: 1.29rem;
+}
+
+.quality {
+  width: 100%;
+  text-align: center;
+  padding-bottom: .2rem;
+  border-bottom: .15rem solid #ccc;
+}
+.quality p {
+  padding-top: .18rem;
+  padding-bottom: .18rem;
+}
+.quality .quality-img {
+  padding-left: .15rem;
+  display: flex;
+}
+.quality .quality-img img {
+  width: 3rem;
+  height: 2.61rem;
+}
+.quality .quality-img div {
+  display: flex;
+  flex-direction: column;
+  padding-left: .08rem;
+}
+.quality .quality-img div .two {
+  margin-top: .12rem;
+}
+.quality .quality-img div img {
+  width: 3rem;
+  height: 1.24rem;
+}
+
+.shoppingmall-yellow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.shoppingmall-yellow .shopping-small {
+  margin-left: .15rem;
+  margin-right: .15rem;
+  height: 1.37rem;
+  margin-top: .2rem;
+  height: 1.37rem;
+}
+.shoppingmall-yellow .shopping-small img {
+  width: 100%;
+  height: 100%;
+}
+.shoppingmall-yellow .list-shopping {
+  border-bottom: .15rem solid #ccc;
+  width: 100%;
+}
+.shoppingmall-yellow .list-shopping ul {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+}
+.shoppingmall-yellow .list-shopping ul li {
+  display: flex;
+  flex-direction: column;
+  padding: .2rem;
+  float: left;
+}
+.shoppingmall-yellow .list-shopping ul li img {
+  width: 1.18rem;
+  height: 1.22rem;
+}
+.shoppingmall-yellow .list-shopping ul li .yellowname {
+  color: black;
+  font-size: .15rem;
+  display: inline-block;
+  padding-top: .2rem;
+  width: 1.44rem;
+  height: .26rem;
+  overflow: hidden;
+}
+.shoppingmall-yellow .list-shopping ul li .two {
+  padding-top: .2rem;
+  color: #ff6600;
+  font-size: .15rem;
+}
+
+.selection {
+  width: 100%;
+  background: #f2f2f2;
+}
+.selection p {
+  text-align: center;
+  padding: .15rem 0;
+}
+.selection ul {
+  display: flex;
+  flex-flow: wrap;
+  padding-left: .05rem;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+.selection ul li {
+  display: flex;
+  flex-flow: column;
+  background: white;
+  margin-top: .1rem;
+  width: 3rem;
+  margin-left: .1rem;
+}
+.selection ul li img {
+  width: 3rem;
+  height: 3.04rem;
+}
+.selection ul li .one {
+  width: 2.8rem;
+  display: inline-block;
+  font-size: .16rem;
+  padding-left: .15rem;
+  height: .51rem;
+}
+.selection ul li .two .two-s {
+  display: inline-block;
+  color: #ff6600;
+  font-size: .25rem;
+  padding-left: .18rem;
+}
+.selection ul li .two .two-p {
+  color: #ccc;
+  display: inline-block;
+  padding-left: .27rem;
+  font-size: .13rem;
+  padding-bottom: .25rem;
+}

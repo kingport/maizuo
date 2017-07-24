@@ -1,0 +1,305 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.shopping-head.two {
+  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 30;
+}
+
+.titlie-imgsss {
+  margin-top: .3rem;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 6.4rem !important;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.shoppinglisttile {
+  position: absolute;
+  top: .89rem;
+  width: 100%;
+}
+
+.title-name {
+  width: 100%;
+  border-bottom: .15rem solid #ccc;
+  padding-bottom: .1rem;
+}
+.title-name p {
+  color: black;
+  font-size: .25rem;
+  padding-left: .2rem;
+}
+.title-name .onespan {
+  color: #ccc;
+  font-size: .18rem;
+  padding-top: .2rem;
+  padding-left: .2rem;
+}
+.title-name b {
+  color: #ff6600;
+  font-size: .26rem;
+  display: block;
+  padding-top: .05rem;
+  padding-left: .2rem;
+  font-weight: 900;
+}
+.title-name div {
+  padding-left: .2rem;
+  padding-top: .1rem;
+  display: flex;
+  margin-right: .2rem;
+  justify-content: space-between;
+}
+.title-name div span {
+  color: #ccc;
+  font-size: .13rem;
+}
+
+.Specifications {
+  border-bottom: .15rem solid #ccc;
+}
+.Specifications div {
+  padding-left: .2rem;
+  margin-right: .2rem;
+  height: .76rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Specifications div span {
+  color: black;
+  font-size: .22rem;
+}
+.Specifications div i {
+  font-size: .22rem;
+  font-weight: 900;
+}
+
+.titlie-imgsss img {
+  width: 100% !important;
+  height: 100%;
+}
+
+.list-tabs {
+  position: fixed;
+  width: 100%;
+  background: white;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  height: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-tabs .tabs-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: .44rem;
+}
+.list-tabs .tabs-one i {
+  font-size: .3rem;
+}
+.list-tabs .tabs-one span {
+  font-size: .17rem;
+}
+.list-tabs .starshopping {
+  width: 2.1rem;
+  background: #ff6600;
+  color: white;
+  font-size: .24rem;
+  height: .8rem;
+  text-align: center;
+  line-height: .8rem;
+}
+
+.mint-popup-bottom {
+  width: 100%;
+}
+
+.Popup-details {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+.Popup-details .popup-top {
+  width: 100%;
+  height: 100%;
+}
+.Popup-details .popup-top ul {
+  padding-left: .15rem;
+  margin-right: .15rem;
+  padding-top: .16rem;
+}
+.Popup-details .popup-top ul li {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .2rem;
+}
+.Popup-details .popup-top ul li img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #ccc;
+}
+.Popup-details .popup-top ul li div {
+  padding-left: .34rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: .9rem;
+}
+.Popup-details .popup-top ul li div b {
+  color: #ff6600;
+  font-size: .21rem;
+  font-weight: 900;
+}
+.Popup-details .popup-top ul li div span {
+  color: black;
+  font-size: .17rem;
+}
+.Popup-details .popup-top ul .two-puspu {
+  padding-bottom: .15rem;
+  border-bottom: 1px solid #ccc;
+}
+.Popup-details .popup-top ul .two-puspu .two-span {
+  padding-top: .15rem;
+  color: black;
+  font-size: .22rem;
+  display: flex;
+  flex-direction: column;
+}
+.Popup-details .popup-top ul .two-puspu div {
+  padding-top: .15rem;
+}
+.Popup-details .popup-top ul .two-puspu div a {
+  display: inline-block;
+  padding: .13rem;
+  margin-right: .12rem;
+  color: #ccc;
+  border: 1px dashed #ccc;
+  font-size: .13rem;
+}
+.Popup-details .popup-top ul .ul-div {
+  width: 100%;
+  padding-bottom: .15rem;
+}
+.Popup-details .popup-top ul .ul-div .two-span {
+  font-size: .13rem;
+  padding: .15rem 0;
+}
+.Popup-details .popup-top ul .ul-div div {
+  display: flex;
+}
+.Popup-details .popup-top ul .ul-div div a {
+  display: inline-block;
+  width: .7rem;
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  border: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+.Popup-details .popup-top ul .ul-div div a:nth-of-type(1) {
+  border-right: none;
+}
+.Popup-details .popup-top ul .ul-div div a:nth-of-type(2) {
+  border-right: none;
+}
+
+.list-tabs1 {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  height: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-tabs1 .tabs-one1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: .44rem;
+}
+.list-tabs1 .tabs-one1 i {
+  font-size: .3rem;
+}
+.list-tabs1 .tabs-one1 span {
+  font-size: .17rem;
+}
+.list-tabs1 .starshopping1 {
+  width: 2.1rem;
+  background: #ff6600;
+  color: white;
+  font-size: .24rem;
+  height: .8rem;
+  text-align: center;
+  line-height: .8rem;
+}

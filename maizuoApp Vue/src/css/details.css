@@ -1,0 +1,310 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.details-header {
+  position: relative;
+  width: 100%;
+  height: 5.4rem;
+  background-position: center !important;
+  background-size: cover !important;
+}
+.details-header .title {
+  width: 100%;
+  text-align: center;
+  padding-top: .26rem;
+  color: #454546;
+  font-size: .25rem;
+  font-weight: 900;
+  letter-spacing: .2rem;
+}
+.details-header .details-top {
+  padding-left: .38rem;
+  padding-right: .34rem;
+}
+.details-header .details-top .one {
+  color: #12cbec;
+  font-size: .29rem;
+}
+.details-header .details-top .span-one {
+  display: inline-block;
+  padding-right: .30rem;
+}
+.details-header .details-top span {
+  float: right;
+  color: white;
+  font-size: .2rem;
+}
+.details-header .details-top span i {
+  color: #12cbec;
+}
+.details-header .details-main {
+  position: absolute;
+  bottom: 1rem;
+  left: .2rem;
+}
+.details-header .details-main span {
+  color: #12cbec;
+  font-size: .16rem;
+  display: inline-block;
+  margin-left: .14rem;
+  position: absolute;
+  right: -.37rem;
+  top: .05rem;
+}
+.details-header .details-main p {
+  color: white;
+  font-size: .36rem;
+  display: inline-block;
+}
+.details-header .details-bottom {
+  position: absolute;
+  bottom: .21rem;
+  left: .17rem;
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+}
+.details-header .details-bottom span {
+  float: right;
+  color: #ff6600;
+  font-size: .3rem;
+  font-weight: 900;
+  padding-right: .2rem;
+}
+.details-header .details-bottom ul {
+  display: flex;
+}
+.details-header .details-bottom ul .three {
+  width: 1.41rem;
+}
+.details-header .details-bottom ul li {
+  padding: 0 .05rem;
+  height: .33rem;
+  text-align: center;
+  line-height: .33rem;
+  color: white;
+  font-size: .13rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: .13rem;
+}
+
+.details-text {
+  width: 100%;
+}
+.details-text .yext-box {
+  padding-top: .32rem;
+  padding-left: .18rem;
+  padding-right: .18rem;
+  padding-bottom: .32rem;
+}
+.details-text .yext-box ul {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.details-text .yext-box ul p {
+  padding: .33rem 0;
+  padding-left: .17rem;
+  width: 5.38rem;
+  color: #737373;
+  font-size: 0.21rem;
+}
+
+.performer {
+  width: 100%;
+}
+.performer ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.performer ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.performer ul li img {
+  width: 1.11rem;
+  height: 1.11rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.performer ul li .performer-one {
+  font-size: .27rem;
+  color: #737373;
+  padding-top: .25rem;
+}
+.performer ul li .performer-two {
+  color: #b2b2b2;
+  font-size: .2rem;
+  padding-top: 0.05rem;
+}
+
+.news {
+  width: 100%;
+}
+.news .news-box {
+  padding: 0 .16rem;
+  padding-top: .5rem;
+}
+.news .news-box .news-title {
+  width: 100%;
+  text-align: left;
+}
+.news .news-box .news-title .news-title-one {
+  width: .1rem;
+  height: .26rem;
+  display: inline-block;
+  background: #ff6600;
+  border-radius: 5px;
+}
+.news .news-box .news-title .news-title-two {
+  font-size: .26rem;
+  color: #ccc;
+  padding-left: .1rem;
+}
+.news .news-box .news-img {
+  width: 100%;
+  height: 3.78rem;
+  background: #ccc;
+  margin-top: .24rem;
+}
+.news .news-box .news-img img {
+  width: 100%;
+  height: 100%;
+  height: 3rem;
+  border: none;
+}
+.news .news-box .news-img p {
+  color: black;
+  font-size: .24rem;
+  height: .78rem;
+  line-height: .78rem;
+  padding-left: .21rem;
+}
+
+.comment {
+  width: 100%;
+}
+.comment .comment-box {
+  padding-top: .5rem;
+  padding-left: .16rem;
+}
+.comment .comment-box .news-title {
+  width: 100%;
+  text-align: left;
+}
+.comment .comment-box .news-title .news-title-one {
+  width: .1rem;
+  height: .26rem;
+  display: inline-block;
+  background: #ff6600;
+  border-radius: 5px;
+}
+.comment .comment-box .news-title .news-title-two {
+  font-size: .26rem;
+  color: #ccc;
+  padding-left: .1rem;
+}
+.comment .comment-box .comment-list {
+  padding-top: .55rem;
+}
+.comment .comment-box .comment-list li {
+  display: flex;
+  padding-bottom: .5rem;
+}
+.comment .comment-box .comment-list li img {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+}
+.comment .comment-box .comment-list li .comment-text {
+  padding-left: .3rem;
+  display: flex;
+  flex-direction: column;
+}
+.comment .comment-box .comment-list li .comment-text .comment-one {
+  color: #13bbe8;
+  font-size: .2rem;
+  font-weight: 900;
+}
+.comment .comment-box .comment-list li .comment-text .comment-two {
+  width: 4.69rem;
+  color: black;
+  font-size: .25rem;
+  padding-top: .2rem;
+}
+.comment .comment-box .comment-list li .comment-text .text-bottom-span {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  margin-top: .2rem;
+}
+.comment .comment-box .comment-list li .comment-text .text-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: .25rem;
+}
+.comment .comment-box .comment-list li .comment-text .text-bottom span {
+  color: #ccc;
+  font-size: .1rem;
+}
+.comment .comment-box .comment-list li .comment-text .text-bottom .num-span {
+  padding-left: .3rem;
+}

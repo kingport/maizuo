@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin:0;
+}
+li{
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+  display:block;
+
+}
+html,body{
+  width:100%;
+  height: 100%;
+}
+@font-face {font-family: "iconfont";
+  src: url('iconfont.ttf?t=1498791404876') format('truetype')
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.tabs::after{
+  content: "";
+  position: absolute;
+  top:-1px;
+  left:0;
+  border-top: 1px solid #ccc;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  transform: scaleY(0.5);
+}
+.tabs{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  height: .85rem;
+  background: whiite;
+  /*border-top: 1px solid #ccc;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgb(232, 236, 241);
+  background: white;
+}
+.router-link-active{
+  color:#ff6837!important;
+}
+.router-link-active span{
+  display: none;
+}
+.router-link-active em{
+  font-size: .5rem!important;
+  border-bottom: 3px solid #ff6837;
+  margin-top:-.1rem;
+  font-weight: 900;
+}
+.tabs em{
+  font-size: .37rem;
+}
+
+.tabs em.icon-dianying1:before { content: "\e70f"; }
+.tabs em.icon-xuanyingyuan:before { content: "\e729"; }
+.tabs em.icon-maikefeng1:before { content: "\e67e"; }
+.tabs em.icon-shangcheng1:before { content: "\e676"; }
+.tabs em.icon-wo:before { content: "\e6ba"; }
+
+
+
+
+
+.tabs a{
+  color:#ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+
+
+}
+.tab.iconfont {
+  font-size: 30px;
+  margin-bottom: -5px;
+}

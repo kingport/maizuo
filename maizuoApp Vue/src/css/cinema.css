@@ -1,0 +1,170 @@
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 400px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 414px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 100px;
+  }
+}
+body {
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.iscorrl {
+  overflow: auto;
+  height: 500px;
+}
+
+.cinema-box {
+  width: 100%;
+  position: relative;
+}
+
+.cinema-box::after {
+  content: "";
+  top: -1px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transform: scaleY(0.5);
+}
+
+.cinema-seach {
+  position: absolute;
+  top: .31rem;
+  right: .31rem;
+}
+.cinema-seach i {
+  color: #10adce;
+  font-size: .26rem;
+}
+
+.cinema-qy {
+  position: relative;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+.cinema-qy P {
+  color: black;
+  font-size: .2rem;
+  margin-left: .20rem;
+  padding: .24rem 0px;
+}
+.cinema-qy .cinma-qy-pos {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: .21rem;
+  color: #00a5c8;
+  top: .24rem;
+  right: .2rem;
+}
+.cinema-qy .cinma-qy-pos i {
+  color: #00a5c8;
+  font-size: .24rem;
+}
+
+.cinema-location {
+  width: 100%;
+}
+.cinema-location ul {
+  padding-top: .41rem;
+  padding-left: .21rem;
+  margin-right: .24rem;
+  padding-bottom: .28rem;
+  display: flex;
+  flex-flow: column;
+}
+.cinema-location ul li {
+  display: flex;
+  flex-flow: row;
+}
+.cinema-location ul .one-losction {
+  justify-content: space-between;
+}
+.cinema-location ul .one-losction span {
+  color: black;
+  font-size: .27rem;
+}
+.cinema-location ul .one-losction div {
+  color: #ff6600;
+  font-size: .34rem;
+}
+.cinema-location ul .one-losction div span {
+  color: #ff6600;
+  font-size: 5px;
+}
+.cinema-location ul .two-location {
+  justify-content: space-between;
+}
+.cinema-location ul .two-location span {
+  color: #c0c0c0;
+  font-size: .14rem;
+}
+.cinema-location ul .two-location .address {
+  width: 4.37rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.cinema-location ul .three-location span {
+  display: inline-block;
+  width: 1.29rem;
+  height: .27rem;
+  background: #ff7674;
+  color: white;
+  font-size: .16rem;
+  text-align: center;
+  line-height: .27rem;
+  border-radius: 3px;
+  margin-top: .17rem;
+}
